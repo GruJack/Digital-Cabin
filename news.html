@@ -1,0 +1,74 @@
+<!Doctype html>
+    <html en>
+     <head>
+      <title>D.C News</title>
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet"> 
+
+         <link rel="stylesheet" href="styles/styles.css">
+     </head>
+
+     <body>
+    <nav>
+    <ul class="topnav" id="dropdownClick">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+      <li class="topnav-right"><a href="#signin">Sign In</a></li>
+      <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+      <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+    </ul>
+  </nav>
+      <header>
+          
+      </header>
+
+      <div class="container" id="boards">
+        <h1 class="large">This is NEWS Page</h1>
+       </div>
+              
+     
+    <footer class="footsy">
+    <div class="row">
+       <div class="col-4 mobileStack">
+        <h1 class="footH1">Company</h1>
+        <ul>
+          <li>About</li>
+          <li>Blogs</li>
+          <li>Careers</li>
+        </ul>
+      </div>
+      <div class="col-4 mobileStack">
+        <h1 class="footH1">Digital Cabin Studio</h1>
+        <ul>
+          <li>Project started by Gruja i Neca</li>
+          <li>Future is here!</li>
+          <li>Today just a dream, tomorow a new reality.</li>
+        </ul>
+      </div>
+     
+      <div class="col-4 mobileStack">
+         <div class="logofooter">
+             <img src="images/cabin.png">
+            </div>  
+        <h1><a href="https://www.flaticon.com/free-icons/cabin" title="cabin icons">Cabin icons created by Freepik - Flaticon</a></h1>
+      </div>
+    </div>
+  </footer>
+         
+    <script>
+     function dropdownMenu() {
+       var x = document.getElementById("dropdownClick");
+         if (x.className === "topnav") {
+             x.className += " responsive";
+
+         } else {
+             x.className = "topnav";
+         }
+     }
+
+    </script>
+     </body>    
+    </html>
